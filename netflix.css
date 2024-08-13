@@ -1,0 +1,230 @@
+/* 
+nav li {
+    display: inline-flex;
+    margin-right: 50px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: bisque;
+    padding: 20px 0;
+    margin-top: -115px; 
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: chocolate;
+} */
+
+body{
+    background-color: rgb(18, 18, 18);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    margin-top: -110px;
+    margin-left: -7px;
+    margin-right: -5px;
+    background-image: linear-gradient(180deg, rgba(0,0,0,.7) 10%, transparent);
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 6px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 70px;
+}
+
+.topnav a.active {
+    color: black;
+    top: 10px;
+}
+
+.netflixlogo{
+    position: relative;
+    top: -70px;
+    left: 15px;
+    margin-top: 5px;
+}
+
+.headingtrending{
+    padding: 8;
+    margin-top: -40vh;
+}
+
+.container1 img{
+    width: 170px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 4vh; 
+  
+}
+
+.container1 img:hover{
+
+    transform: scale(1.4);
+    transition-duration: .6s;
+}
+
+.headingpopuler{
+    padding: 15;
+}
+
+.container2 img{
+    width: 170px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 5px; 
+    margin-top: 3vh;
+  
+}
+
+
+.container2 img:hover{
+
+    transform: scale(1.4);
+    transition-duration: .6s;
+
+}
+
+.container3 img{
+    width: 170px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 5vh;
+   
+}
+.container3 img:hover{
+
+    transform: scale(1.4);
+    transition-duration: .6s;
+
+}
+ 
+
+.container4 img{
+    width: 170px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 5px;  
+    margin-top: 5vh;
+  
+}
+
+.container4 img:hover{
+
+    transform: scale(1.4);
+    transition-duration: .6s;
+
+}
+
+#backgroundVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    margin-bottom: 50px;
+  }
+.head1 h1{
+    padding: 10px;
+    color: white;
+}
+
+.image {
+    position: relative;
+}
+
+#img {
+    position: relative;
+    margin-left: 1280px;
+    top: -50px;
+  
+}
+
+.icon {
+    position: relative;
+    margin-left: 1200px;
+    top: -104px;
+}
+ 
+.bell {
+    
+    
+    margin-left: 1150px;
+    margin-top: -145px;
+} 
+
+#video {
+    margin-top: -150px;
+    margin-left: -1.1%;
+    margin-right: 100%;
+}
+
+.wednesdayimg {
+    position: relative;
+    bottom: 500px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  #playbutton{
+   position: relative;
+   top: -450px;
+   left: 50px;
+   border-radius: 4px;
+   padding: 16px 32px;
+   background-color: white;
+   font-size: 16px;
+   display: inline-block;
+   margin: 4px 2px;
+   border: none;
+  }
+#infobutton{
+    position: relative;
+   top: -450px;
+   left: 50px;
+   border-radius: 4px;
+   padding: 16px 32px;
+   background-color: grey;
+   font-size: 16px;
+   display: inline-block;
+   margin: 4px 2px;
+   border: none;
+}
